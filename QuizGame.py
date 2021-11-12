@@ -1,6 +1,9 @@
 #This is the welcome section of my code i guess
 print("Welcome to my game!")
 
+#I.m going to update this code with a madlib
+name = input("Enter your name: ")
+
 playing = input("Would you like to begin? ")
 
 if playing.lower() != "yes":
@@ -30,3 +33,5 @@ else:
     print("Really? Wrong!")
 
 print("You got " + str(score) + " questions right and scored a total of " + str(points) + " points")
+
+print(f"Thank you for playing this game {name}")
