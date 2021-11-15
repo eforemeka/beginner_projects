@@ -14,5 +14,5 @@ def GuessNumber(x):
         elif guess < random_number:
             print ("Nope. Guess Higher")
     print(f"Spot on! You guessed {random_number} and that was right!")
-
+#Pass an argument to the function to play this game
 GuessNumber(10)
