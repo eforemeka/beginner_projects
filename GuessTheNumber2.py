@@ -6,11 +6,12 @@ def computer_guess(x):
     low = 1 
     high = x
     feedback = ''
+
     while feedback != 'c':
         if low != high:
             guess = random.randint(low, high)
         else:
-            guess = low
+            guess = low or high
         #guess = random.randint(low, high)
         feedback = input(f"Is {guess} higher (H), lower (L), or correct (C)? ").lower()
         if feedback == 'h':
@@ -20,5 +21,6 @@ def computer_guess(x):
 
     print(f"I guessed your number, {guess}, correctly peasant, therefore I am superior!")
     
+computer_guess(35)
 
-computer_guess(10)
+#Reran my code and it turns out it was correct afterall
