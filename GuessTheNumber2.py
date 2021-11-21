@@ -21,6 +21,6 @@ def computer_guess(x):
 
     print(f"I guessed your number, {guess}, correctly peasant, therefore I am superior!")
     
-computer_guess(35)
+computer_guess(100)
 
 #Reran my code and it turns out it was correct afterall
